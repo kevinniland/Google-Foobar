@@ -86,11 +86,11 @@ public class Level2 {
 	}
 
 	public static void main(String[] args) {
-		// Provided test cases - seemingly passing. Test cases, however, are not
-		// int[] xs = { 2, 0, 2, 2, 0 };
-		int[] xs = { -2, -3, 4, -5 };
-		// int[] xs = { 1 };
-		// int[] xs = { 0 };
+		// Provided test cases - seemingly passing. Showing failed when ran, however, are not
+		// int[] xs = { 2, 0, 2, 2, 0 }; // Should return 8
+		int[] xs = { -2, -3, 4, -5 }; 
+		// int[] xs = { 1 }; // Should return 1
+		// int[] xs = { 0 }; // Should return 0
 		
 		Level2.solution(xs);
 	}
