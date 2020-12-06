@@ -63,8 +63,9 @@ public class Level2_2 implements Comparator<String> {
 
 	public static void main(String[] args) {
 		// Provided test cases
-		String[] l = { "1.11", "2.0.0", "1.2", "2", "0.1", "1.2.1", "1.1.1", "2.0" };
-//		String[] l = {"1.1.2", "1.0", "1.3.3", "1.0.12", "1.0.2"};
+		// String[] l = { "1.11", "2.0.0", "1.2", "2", "0.1", "1.2.1", "1.1.1", "2.0" };
+		// String[] l = {"1.1.2", "1.0", "1.3.3", "1.0.12", "1.0.2"};
+		String[] l = { "1.1.2", "1.0", "1.3.3", "1.0.12", "1.0.2" };
 
 		Level2_2.solution(l);
 	}
